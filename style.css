@@ -1,0 +1,301 @@
+* {
+    /* these are the globale rules of the css */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* These are the variables of colors   */
+:root {
+    --Green: #7B9622;
+    --white: #F7F8F4;
+    --black: #010101;
+    --grey: #B4B4B4;
+    --Green2: #97BE11;
+
+}
+
+/* container to provide paddings and margins for the whole page content */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* handling navbar styles */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--Green);
+    padding: 1rem;
+
+}
+
+.col1 img {
+    width: 4rem;
+}
+
+/* handling the mid nav content  */
+
+.col2 {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.col2 span {
+    padding-right: 2.5rem;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.col2 span:hover {
+    color: var(--Green2);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.col3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.col3-btn1 {
+    padding-right: 1rem;
+
+
+
+}
+
+.col3-btn1 button {
+    background-color: var(--white);
+    border: none;
+    padding: 1rem;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    width: 7rem;
+    color: var(--Green);
+    font-size: 16px;
+    font-weight: 500;
+    height: 3rem;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    cursor: pointer;
+}
+
+.col3-btn1 button:hover {
+    background-color: var(--Green);
+    color: var(--white);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.col3-btn2 a {
+    text-decoration: none;
+    color: var(--white);
+    padding-left: 3rem;
+    font-size: 11px;
+
+}
+
+/* Nav end */
+
+/* Landing start  */
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.landing-left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.landing-left-container {
+    border-bottom: 1px solid var(--Green2);
+    padding-bottom: 1rem;
+
+
+}
+
+.landing-left-firsthead {
+    color: var(--Green);
+    font-weight: 500;
+    font-size: 2rem;
+
+}
+
+.landing-left-secondhead {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: var(--Green2);
+    font-weight: 300;
+
+
+}
+
+.landing-left-button {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.landing-button {
+
+    background-color: var(--Green);
+    border: none;
+    padding: 1rem;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    width: 7rem;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    height: 3rem;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    cursor: pointer;
+
+}
+
+/* end landing  */
+/* start reviews */
+.title {
+    text-align: center;
+    color: var(--Green2);
+    text-shadow: 2px 2px 4px var(--grey);
+    font-weight: 400;
+}
+
+.reviews-container {
+    padding-top: 3rem;
+}
+
+.specialtext {
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.reviewCard {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    padding-right: 5rem;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.card-top-img {
+    width: 30%;
+    padding-right: 3rem;
+}
+
+.card-top-details h3 {
+    padding-bottom: 1rem;
+    font-size: 17px;
+
+
+
+}
+
+.card-top-details p {
+    color: var(--grey);
+    font-weight: 500;
+}
+
+.card-mid {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+
+}
+
+.mid-rates {
+    color: var(--grey);
+}
+
+.midp {
+    color: var(--grey);
+}
+
+.card-mid {
+    border-bottom: 1px solid var(--grey);
+}
+
+.card-bottom {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    color: var(--grey);
+    padding-bottom: 2rem;
+}
+
+.mid-img {
+    width: 4rem;
+
+}
+
+.mid-rates {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* 
+
+████████╗██╗░░██╗███████╗  ██████╗░███████╗██████╗░  ░██████╗██╗░░██╗░█████╗░░█████╗░██████╗░░█████╗░░█████╗░
+╚══██╔══╝██║░░██║██╔════╝  ██╔══██╗██╔════╝██╔══██╗  ██╔════╝██║░░██║██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+░░░██║░░░███████║█████╗░░  ██████╔╝█████╗░░██║░░██║  ╚█████╗░███████║███████║███████║██████╔╝██║░░██║██║░░██║
+░░░██║░░░██╔══██║██╔══╝░░  ██╔══██╗██╔══╝░░██║░░██║  ░╚═══██╗██╔══██║██╔══██║██╔══██║██╔══██╗██║░░██║██║░░██║
+░░░██║░░░██║░░██║███████╗  ██║░░██║███████╗██████╔╝  ██████╔╝██║░░██║██║░░██║██║░░██║██║░░██║╚█████╔╝╚█████╔╝
+░░░╚═╝░░░╚═╝░░╚═╝╚══════╝  ╚═╝░░╚═╝╚══════╝╚═════╝░  ╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░░╚════╝░
+
+
+*/
